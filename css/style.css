@@ -30,6 +30,7 @@
 .container::after , .choice-con::after , .txtcon::after , .contentset::after {
     clear: both;
 }
+/*设置导航栏属性*/
 .topbar a {
     color: #333333;
     font-size: 18px;
@@ -41,13 +42,10 @@
     font-family: arial;
     color: #333333;
 }
+
 .topbar-nav a {
     font-weight: 600;
 }
-/*.topbar-nav span{
-    font-size: 12px;
-    color:;
-}*/
 .topbar-tool , .topbar-info{
     float: right; 
     font-family: Arial;
@@ -78,11 +76,15 @@
 .header {
     height: 50px;
 }
+/*因为与原网页初始背景不同，尝试了很多次
+并通过加边框进行不断调试 加边框是一个不错的方法
+后面每一个大板块的定位都是这样不断调试完成的*/
 .headercon {
     margin: 0 auto;
     width: 1100px;
     /*border: 1px solid black;*/
 }
+/*这里本应该放到最前面统一清除浮动 结果又弄了一遍*/
 .headercon::before , .headercon::after{
     content: "";
     display: table;
@@ -97,6 +99,7 @@
     height: 100px;
     /*border: 1px solid black;*/
 }
+/*这里的logo图片是经过ps多次处理后比较理想的像素了*/
 .header-logo a {
     display: block;
     width: 180px;
@@ -218,10 +221,12 @@
     position: relative;
     font-size: 0;
     line-height: 0;
+    background: url(../img/baidu\ logo.jpg) no-repeat;
+    background-position: auto 100%;
 }
 .tuche {
     font: 400 14px 10px arial;
-    height: 10px;
+    height: 60px;
     padding: 8px 5px 8px 30px;
     box-shadow: 0 -1px 1px #ddd;
     line-height: 23px;
