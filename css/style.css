@@ -209,6 +209,7 @@
 }
 .poster .pic {
     float: right;
+    height: 368px;
 }
 .all-poster .pic {
     margin-right: 80px;
@@ -221,10 +222,11 @@
     position: relative;
     font-size: 0;
     line-height: 0;
+    height:300px;
+    height: 358px;
 }
 .tuche {
     font: 400 14px 10px arial;
-    height: 60px;
     padding: 8px 5px 8px 30px;
     box-shadow: 0 -1px 1px #ddd;
     line-height: 23px;
@@ -234,7 +236,6 @@
     color: #ccc;
     text-decoration: none;
     background: black ;
-    background: url(../img/baidu\ logo.jpg) no-repeat;
 }
 dl {
     display: block;
