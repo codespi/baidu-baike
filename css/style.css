@@ -221,8 +221,6 @@
     position: relative;
     font-size: 0;
     line-height: 0;
-    background: url(../img/baidu\ logo.jpg) no-repeat;
-    background-position: auto 100%;
 }
 .tuche {
     font: 400 14px 10px arial;
@@ -236,6 +234,7 @@
     color: #ccc;
     text-decoration: none;
     background: black ;
+    background: url(../img/baidu\ logo.jpg) no-repeat;
 }
 dl {
     display: block;
